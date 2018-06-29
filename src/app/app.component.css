@@ -1,0 +1,14 @@
+body {
+    background-color:#eee;
+}
+
+a {
+    color:#000;
+    font-size:20px;
+    padding-right:20px;
+}
+
+.text-center{
+    text-align:center;
+}
+

@@ -1,0 +1,15 @@
+<p>
+  Single Movie Fetched with the API
+</p>
+
+<input type="number" (keyup)="onNameKeyUp($event)" placeholder="Enter Movie Id" value="1"/> &nbsp;&nbsp;  
+<input type="button" value="Get the Movie" (click)="getMovie()">
+
+<br/><br/>
+Result: <br/> <br/>
+<div class="card">
+    <h4>Name: {{mov.movie}}</h4>
+    <p>Category: {{mov.moviecategory}}</p>
+    <p>Rating: {{mov.Rating}}</p>
+</div>
+

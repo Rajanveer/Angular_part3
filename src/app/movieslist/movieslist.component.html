@@ -1,0 +1,11 @@
+<div class="text-center">
+    <p>
+      List of all the Movies Pulled from API
+    </p>
+</div>
+
+<div *ngFor="let mov of movies; index as i" class="card">
+    <h4>Name: {{mov.movie}}</h4>
+    <p>Category: {{mov.moviecategory}}</p>
+    <p>Rating: {{mov.Rating}}</p>
+</div>
